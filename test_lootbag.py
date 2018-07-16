@@ -17,7 +17,7 @@ class TestBagOLoot(unittest.TestCase):
 
     # 3b: Items can be removed from bag, per child. Removing ball from the bag should not be allowed. A child's name must be specified.
 
-    # 3c: Must be able to list all children who are getting a toy.
+    # 3c: Must be able to list all children who are getting a toy
 
     # 3d: Must be able to list all toys for a given child's name.
     def test_can_get_all_toys_for_a_child(self):
